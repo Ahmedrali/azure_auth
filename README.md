@@ -19,8 +19,11 @@ Or install it yourself as:
 ## Usage
 
 1- You need to run:
-	$ rails g azure_auth:steps
+
+    $ rails g azure_auth:steps
+    
    to create the authentication controller that handle the authentication process.
+    
 2- Use "/authenticate" url to start the authentication process.
 
 ## Contributing
