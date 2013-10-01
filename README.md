@@ -1,6 +1,6 @@
 # AzureAuth
 
-TODO: Write a gem description
+azure_auth uses 'Peerialism authentication HUB' web site that manages token exchanges with the Azure ACS, encryption etc.
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1- You need to run:
+	$ rails g azure_auth:steps
+   to create the authentication controller that handle the authentication process.
+2- Use "/authenticate" url to start the authentication process.
 
 ## Contributing
 
