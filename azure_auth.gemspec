@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Ahmed Ali"]
   spec.email         = ["ahmedrali2@gmail.com"]
   spec.date          = "2013-10-01"
-  spec.summary       = "omniauth-azure-ad uses 'Peerialism authentication HUB' web site that manages token exchanges with the Azure ACS, encryption etc."
-  spec.description   = "omniauth-azure-ad uses 'Peerialism authentication HUB' web site that manages token exchanges with the Azure ACS, encryption etc."
-  spec.homepage      = ""
+  spec.summary       = "azure_auth uses 'Peerialism authentication HUB' web site that manages token exchanges with the Azure ACS, encryption etc."
+  spec.description   = "azure_auth uses 'Peerialism authentication HUB' web site that manages token exchanges with the Azure ACS, encryption etc."
+  spec.homepage      = "https://github.com/Ahmedrali/azure_auth"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
